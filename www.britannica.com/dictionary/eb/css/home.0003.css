@@ -1,0 +1,24 @@
+#hp_cent{margin-left:-178px;background-color: #fff;}
+#hp_cent  .hp_cent_box{}
+#hp_cent img{width:100%;}
+#hp_cent_t{margin-bottom:20px;overflow:hidden;}
+#hp_cent_t > .hp_cent_box{float:right;width:50%;}
+#hp_cent_t > .hp_cent_box:nth-child(1){padding-left:10px;}
+#hp_cent_t > .hp_cent_box:nth-child(2){padding-right:10px;}
+#hp_cent_b{overflow:hidden;}
+#hp_cent_b > .hp_cent_box{float:left;width:50%;}
+#hp_cent_b > .hp_cent_box:nth-child(1){padding-right:10px;}
+#hp_cent_b > .hp_cent_box:nth-child(2){padding-left:10px;}
+
+/*mobile overrides*/
+@media (max-width: 767px) {
+	/*make em vertical*/
+	#hp_cent{margin-left:0px;font-size:18px;padding-top:20px;}
+	#hp_cent_t{margin-bottom:0;}
+	#hp_cent > #hp_cent_t > .hp_cent_box{padding:0;margin:0;width:100%;margin-bottom:20px;float:none;}
+	#hp_cent > #hp_cent_b > .hp_cent_box{padding:0;margin:0;width:100%;margin-bottom:20px;float:none;}
+	#hp_cent > #hp_cent_b > .hp_cent_box:last-child{margin-bottom:0;}
+	
+	/*area headers look differently*/
+	#hp_cent .area_header{color:#398597;text-transform:none;background-color:transparent;border:none;font-size:0.9em;font-weight:normal;letter-spacing:normal;padding:0;margin:0;margin-bottom:10px;}
+}

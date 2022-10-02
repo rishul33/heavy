@@ -1,0 +1,12 @@
+:root{--100vh: 100vh}.homepage{background-color:#fff}.homepage .md-homepage-hero{background-image:linear-gradient(to bottom, var(--navy-dark), var(--navy));color:var(--white)}.homepage .md-homepage-hero .search-box{max-width:600px;margin:0 auto}.homepage .rw-track{width:100%}.homepage .trending-content ol{counter-reset:item;position:relative}.homepage .trending-content ol>li{counter-increment:item}.homepage .trending-content ol>li:before{line-height:1.1;position:absolute;left:8px;top:0;font-family:Georgia,serif;font-size:1.25rem;font-weight:bold;content:counter(item)}.homepage .ogf-homepage .bg-blue{border-top-left-radius:.5rem;border-top-right-radius:.5rem}@media(min-width: 672px){.homepage .ogf-homepage .bg-blue{border-bottom-left-radius:.5rem;border-top-right-radius:0}}
+:root{--100vh: 100vh}.Flyout{background-color:var(--navy-dark);color:var(--white);left:0;position:fixed;right:0}.Flyout a:not(.btn):hover{text-decoration:underline}
+.AnonymousOrgDropdownOptions{background-color:rgba(0,0,0,0)}
+.AnonymousUserDropdownOptions{background-color:rgba(0,0,0,0)}
+.AuthenticatedOrgDropdownOptions{background-color:rgba(0,0,0,0)}
+.AuthenticatedUserDropdownOptions{background-color:rgba(0,0,0,0)}
+:root{--100vh: 100vh}.UserDropdownFlyout{top:47px;width:320px;z-index:1070}@media(max-width: 671.98px){.UserDropdownFlyout{overflow-y:auto;width:100%}}
+:root{--100vh: 100vh}.HomepageStories2 small{display:block;font-family:Georgia,serif;margin-bottom:10px;margin-top:10px}.HomepageStories2 hr{display:none}.HomepageStories2 h2{margin-bottom:10px}.HomepageStories2 .storiesGrid{column-gap:20px;display:grid;grid-template-areas:"featured secondary" "featured tertiary";grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;row-gap:20px}@media(max-width: 671.98px){.HomepageStories2 .storiesGrid{grid-template-areas:"featured featured" "secondary tertiary";grid-template-columns:1fr 1fr;grid-template-rows:2fr 1fr}}.HomepageStories2 .featuredStory{grid-area:featured;padding-top:75%}@media(max-width: 671.98px){.HomepageStories2 .featuredStory{padding-top:56.25%}}.HomepageStories2 .secondaryStory{grid-area:secondary}.HomepageStories2 .tertiaryStory{grid-area:tertiary}
+:root{--100vh: 100vh}.StoryTile .gradient{background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));height:100%;left:0;position:absolute;top:0;width:100%}.StoryTile .storyImage{height:100%;left:0;object-fit:cover;position:absolute;top:0;width:100%}
+.ContentfulCard .label{left:15px;position:absolute;top:15px}
+
+/*# sourceMappingURL=home-page.css.map*/

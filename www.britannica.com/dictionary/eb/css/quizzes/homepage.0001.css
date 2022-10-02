@@ -1,0 +1,22 @@
+#h_quizzes{margin:0 0 20px 0;padding:0;}
+#h_quizzes > .h_quizzes_q{margin:0;padding:0;overflow:hidden;}
+#h_quizzes > .h_quizzes_q > .quiz_icon{float:left;margin:0;padding:0 20px 0px 0px;display:inline-block;}
+#h_quizzes > .h_quizzes_q > .quiz_icon img{margin:0;padding:0;border:none;width:100%;}
+#h_quizzes > .h_quizzes_q > .title{margin:0px 0 5px 0;padding:0;display:block;font-weight:bold;text-decoration:none;color:#000;}
+#h_quizzes > .h_quizzes_q > .title:hover{text-decoration:none;}
+#h_quizzes > .h_quizzes_q > .descr{margin:0;padding:0;display:block;color:#1122CC;font-weight:normal;text-decoration:none;}
+#h_quizzes > .h_quizzes_q > .descr:hover{text-decoration:underline;}
+#h_quizzes > .h_quizzes_q > .descr_m{margin:0;padding:0;display:block;color:#1122CC;font-weight:normal;text-decoration:none;}
+#h_quizzes > .h_quizzes_q > .descr_m:hover{text-decoration:underline;}
+
+/*mobile overrides*/
+@media (max-width: 767px) {
+	#h_quizzes{margin-top:0px;}
+	#h_quizzes > .h_quizzes_q{margin-bottom:10px;}
+	#h_quizzes > .h_quizzes_q:last-child{margin-bottom:0px;}
+	#h_quizzes > .h_quizzes_q > .quiz_icon{display: none;}
+	#h_quizzes > .h_quizzes_q > .title{font-weight:bold;}
+	#h_quizzes > .h_quizzes_q > .descr{color:#000;}
+	#h_quizzes > .h_quizzes_q > .descr:hover{text-decoration:none;}
+	#h_quizzes > .h_quizzes_q > .descr_m{font-weight:normal;margin-top:12px;}
+}

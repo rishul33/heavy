@@ -1,0 +1,13 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+britannica.com	TRUE	/	FALSE	1999999999	bcomID	8499862949815023282
+britannica.com	TRUE	/	FALSE	1999999999	SessionAuth	wVQ03pM1EVbk5bcpCHv+K3HlAEjqb67tDXcLCIQpUgWX4S5l0MxQtgGeFDPUQGmy
+www.britannica.com	TRUE	/	FALSE	1999999999	PHPSESSID	n6km4d47gc36q6u5deotf9fukc
+britannica.com	TRUE	/	FALSE	1999999999	utmParams	utm_medium=mendel-homepage&utm_source=2up&utm_campaign=2up-2&utm_term=20221002&utm_data_captured=1664712387516"
+britannica.com	TRUE	/	FALSE	1999999999	_ftc	592619
+www.britannica.com	TRUE	/	FALSE	1999999999	JSESSIONID	05CD5438E7252C54F042AC14903431E0
+britannica.com	TRUE	/	FALSE	1999999999	subreturn	https%3A%2F%2Fwww.britannica.com%2Fbrowse%2FMovie-TV-Stage-Development-Production
+britannica.com	TRUE	/	FALSE	1999999999	referer	http%3A%2F%2Fwww.britannica.com%2Fbrowse%2FEntertainment-Pop-Culture
+britannica.com	TRUE	/	FALSE	1999999999	webstats	referer_page=https%3A%2F%2Fwww.britannica.com%2Fbrowse%2FMovie-TV-Stage-Development-Production"
+britannica.com	TRUE	/	FALSE	1999999999	__mendel	%7B%27pagesViewed%27%3A1%2C%27surveyShown%27%3Atrue%2C%27topicInitialSequence%27%3A0%7D
+

@@ -1,0 +1,41 @@
+/*wod text*/
+#wod_home{}
+#wod_home > .wrap_t{margin:0;padding:0px 10px 10px 10px;overflow: hidden;}
+
+/*image*/
+#wod_home > .wrap_t > .imgl{float:right;margin:0;padding:0px 0px 0px 10px;border:none;display:inline-block;}
+#wod_home > .wrap_t > .imgl img{margin:0;padding:0;border:none;border-radius:5px;width:152px;max-height:142px;}
+
+/*left side texts*/
+#wod_home > .wrap_t > .w_text{}
+#wod_home > .wrap_t > .w_text > .sdate{margin:0px 0 5px 0;padding:0;color:#999999;text-transform:uppercase;font-weight:bold;font-size:11px;display:block;}
+#wod_home > .wrap_t > .w_text > .text_pron{margin:0 5px 0 0;padding:0;display:block;font-weight:normal;}
+#wod_home > .wrap_t > .w_text > .text_pron > .wod_text{margin:0;padding:0;color:#D6000D;font-size:20px;}
+#wod_home > .wrap_t > .w_text > .text_pron > .wod_text:hover{text-decoration:none;}
+#wod_home > .wrap_t > .w_text > .text_pron > .a_listen{margin:0 0 0 4px;padding:0;position:relative;color:#D6000D;font-size:20px;}
+#wod_home > .wrap_t > .w_text > .text_pron > .a_listen:hover{text-decoration:none;}
+#wod_home > .wrap_t > .w_text > .blurb{color:#666666;font-size:16px;margin:0 0 10px 0;padding:0;display:block;}
+#wod_home > .wrap_t > .w_text > .blurb:hover{text-decoration:none;}
+#wod_home > .wrap_t > .w_text > .cc{margin:0;padding:0;font-weight:bold;text-decoration:none;color:#1122CC;display:block;}
+#wod_home > .wrap_t > .w_text > .cc:hover{text-decoration:underline;}
+
+/*Mobile: WOD Subscription Box*/
+#wod_home > .sg_up{font-size:12px;}
+
+@media (min-width: 768px) {
+    #wod_home > .wrap_t > .w_text > .text_pron{display:block;width:134px;word-break:break-all;}
+}
+
+/*mobile overrides*/
+@media (max-width: 767px) {
+	#wod_home > .sg_up{font-size:15px;margin-top: 10px;}
+	#wod_home > .wrap_t{padding:0;}
+	#wod_home > .wrap_t > .imgl{float:left;padding:0px 10px 0px 0px;}
+	#wod_home > .wrap_t > .imgl img{width:112px;}
+	#wod_home > .wrap_t > .w_text > .sdate{display:none;}
+    #wod_home > .wrap_t > .w_text > .text_pron{margin-right:5px;}
+	#wod_home > .wrap_t > .w_text > .text_pron > .wod_text{font-weight:bold;font-family:Arial, Verdana, sans-serif;}
+	#wod_home > .wrap_t > .w_text > .text_pron > .a_listen{}
+	#wod_home > .wrap_t > .w_text > .blurb{margin-top:10px;color:#000;font-size:18px;font-family:Arial, Verdana, sans-serif;}
+	#wod_home > .wrap_t > .w_text > .cc{font-weight:normal;}
+}
